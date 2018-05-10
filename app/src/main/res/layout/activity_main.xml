@@ -8,11 +8,10 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="352dp"
-        android:layout_height="65dp"
+        android:layout_width="294dp"
+        android:layout_height="67dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Diego Jara"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,9 +32,10 @@
         tools:layout_editor_absoluteY="55dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="396dp"
-        android:layout_height="51dp"
+        android:layout_height="38dp"
+        android:background="#1ca615"
         android:text="Siguiente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

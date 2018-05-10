@@ -7,7 +7,7 @@
     tools:context=".SecondActivity">
 
     <RadioGroup
-        android:id="@+id/radioGroup2"
+        android:id="@+id/radioGroup"
         android:layout_width="286dp"
         android:layout_height="139dp"
         android:layout_marginTop="28dp"
@@ -43,33 +43,45 @@
         android:layout_height="101dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.378" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="54dp"
-        android:layout_height="27dp"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
         android:text="18"
-        android:textSize="18sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/Edad"
         app:layout_constraintEnd_toStartOf="@+id/Edad"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toEndOf="@+id/Edad"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.48" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="392dp"
-        android:layout_height="59dp"
+        android:layout_height="38dp"
+        android:background="#1ca615"
         android:text="Siguiente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:background="#e9232d"
+        android:text="Atras"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Edad"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.816" />
 
 </android.support.constraint.ConstraintLayout>
